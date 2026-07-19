@@ -34,7 +34,7 @@ tensorflow
 3. Run:
 
 ```bash
-python live_lv_segmentation.py
+python main.py
 ```
 
 4. Press `q` to quit the display window.
