@@ -2,6 +2,8 @@
 
 Live left-ventricle (LV) segmentation overlay for echo video, using a Keras U-Net for prediction and OpenCV for pre/post-processing and display.
 
+![Demo](output.gif)
+
 ## What it does
 
 Reads frames from a video source, runs each through a U-Net to get a per-pixel LV probability map, then applies temporal smoothing, thresholding, and morphological cleanup before overlaying the resulting mask and contour on the original frame in a live HUD window.
